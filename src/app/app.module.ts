@@ -8,6 +8,7 @@ import { LucasHeaderComponentComponent } from './components/lucas-header-compone
 import { LucasTimerComponentComponent } from './components/lucas-timer-component/lucas-timer-component.component';
 import { LucasSimpleInterestsComponentComponent } from './components/lucas-simple-interests-component/lucas-simple-interests-component.component';
 import { LucasCompoudInterestsComponentComponent } from './components/lucas-compoud-interests-component/lucas-compoud-interests-component.component';
+import { LucasRandomNumbersComponentComponent } from './components/lucas-random-numbers-component/lucas-random-numbers-component.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -18,6 +19,7 @@ import { LucasCompoudInterestsComponentComponent } from './components/lucas-comp
     LucasTimerComponentComponent,
     LucasSimpleInterestsComponentComponent,
     LucasCompoudInterestsComponentComponent,
+    LucasRandomNumbersComponentComponent,
   ],
   bootstrap: [AppComponent],
 })
